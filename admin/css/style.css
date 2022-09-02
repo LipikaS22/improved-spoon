@@ -1,0 +1,189 @@
+.mybg {
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.breadcrumb-outer {
+    height: 100%;
+    background-image: url("../images/outerbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 25%;
+    border-radius: 5% 0% 0% 5%;
+}
+
+.breadcrumb-inner {
+    height: 148.4%;
+    background-color: rgba(27, 32, 40, 0.9);
+    border-radius: 5% 0% 0% 5%;
+}
+
+.my-div {
+    display: block;
+    justify-content: space-between;
+    padding-left: 170px;
+    padding-right: 100px;
+    padding-top: 130px;
+    padding-bottom: 20px;
+    margin-bottom: auto;
+    height: 80%;
+    align-items: center;
+}
+
+.mypadding {
+    padding-top: 68px;
+    padding-bottom: 88px;
+   
+}
+
+.my-form-box{
+    box-shadow: 30px 30px 35px #cecece,
+    -30px -30px 35px #f2f2f2;
+    border-radius: 35px;
+}
+.myform {
+    border-radius: 0% 5% 5% 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-top: 5%;
+    text-align: center;
+}
+
+.mytb {
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 36px;
+}
+
+.mytb i {
+    color: rgb(0, 0, 0) !important;
+  
+    margin: 0px 5px;
+    border-radius: 50%;
+}
+
+.mytb a :hover {
+    background-color: black;
+    color: rgb(0, 0, 0);
+}
+
+.myprofile {
+    height: 120px;
+    border-radius: 50%;
+    margin-left: 65px;
+
+}
+
+.mydbg {
+    /* background: rgb(64,69,62);
+    background: radial-gradient(circle, rgba(64,69,62,1) 35%, rgba(0,10,11,1) 100%); */
+    background-image: url(../images/newbg.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100% auto;
+}
+
+.mymar {
+    padding-bottom: 20px;
+}
+
+.mybtn {
+    color: white;
+    background-color: #000000;
+    height: 80%;
+    width: 80%;
+    margin-left: 11%;
+    box-shadow:  inset 7px 7px 14px #0e0f0f,
+    inset -7px -7px 14px #222527;
+}
+
+.mybtn a {
+    color: white;
+    text-decoration: none;
+    transition: 0.5ms;
+}
+
+.mybtn:hover {
+    color: black;
+    background-color:#3b7158;
+    box-shadow: inset 7px 7px 14px #224032,
+    inset -7px -7px 14px #54a27e;
+    transition: 0.5s;
+    transform: translateY(-10px);
+}
+.mybtn:hover a
+{
+    color:black;
+}
+.myheading {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60;
+    text-align: center;
+    padding-top: 2%;
+    text-shadow:  4px 4px 6px rgba(0,0,0,1);
+}
+
+.mybtn-link a {
+    text-decoration: none;
+    color: white;
+}
+.mybtn-link:hover
+{
+    box-shadow:  inset 7px 7px 14px #224032,
+    inset -7px -7px 14px #54a27e;
+}
+
+.alignment {
+    text-align: center;
+}
+
+h3 {
+    font-family: "fangsong";
+}
+
+.my-add
+{
+    box-shadow: 0px !important;
+
+    width: 50%;
+    padding: 12px 20px;
+
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.my-add:focus 
+{
+    box-shadow: unset !important;
+}
+
+.mytoggle:hover {
+    background-color: rgb(61, 62, 61) !important;
+}
+
+.mytoggle {
+    background-color: white;
+}
+
+input[type=password] {
+    width: 50%;
+    padding: 6px 20px;
+
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.my-probox {
+    width: 30%;
+    border-radius: 20px;
+    text-align: center;
+    margin-left: 389px;
+}
+
+.myadd {
+    margin-left: 500px;
+}
